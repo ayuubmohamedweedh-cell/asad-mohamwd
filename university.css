@@ -1,0 +1,60 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 10px;
+    text-align: center;
+    color: white;
+
+
+}
+
+.menu a {
+    color: black;
+    text-decoration: double;
+}
+
+.title {
+    text-align: center;
+}
+
+.section2 {
+    float: none;
+
+    padding: 20px;
+    font-size: 40px;
+    background-color: blue;
+}
+
+.section1 {
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+
+}
+
+.section3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    box-sizing: 100%;
+}
+
+body {
+    background-image: -webkit-image-set(ayuub.jbj);
+}

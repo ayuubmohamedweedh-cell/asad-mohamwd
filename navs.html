@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0d6efd;
+        }
+
+        .container {
+            background-color: grey;
+            padding: 15px;
+        }
+
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            gap: 1.3rem;
+        }
+
+        .nav-menu li {
+            position: relative;
+        }
+
+        .nav-menu li a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            display: block;
+            padding: 8px 5px;
+            font-weight: 500;
+        }
+
+        .nav-menu a:hover {
+            color: #ffeb3b;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: white;
+            min-width: 180px;
+            list-style: none;
+        }
+
+        .dropdown li a {
+            color: orange;
+            padding: 10px 15px;
+
+
+        }
+
+        .dropdown li a:hover {
+            color: #ffeb3b;
+            color: blue
+        }
+
+        .nav-menu li:hover .dropdown {
+            display: block;
+        }
+
+        @media(max-width:768px) {
+            .nav-menu {
+                flex-direction: column;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <ul class="nav-menu">
+            <li><a href="#">Home</a></li>
+
+            <li>
+                <a href="#">about</a>
+                <ul class="dropdown">
+                    <li><a href="#">history</a></li>
+
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">adminstration</a>
+                <ul class="dropdown">
+                    <li><a href="">registration</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+
+
+
+</body>
+
+</html>

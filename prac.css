@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+mo {
+    text-align: left;
+}
+
+header {
+    display: flex;
+}

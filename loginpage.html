@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            background: linear-gradient(navy, skyblue);
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: navy;
+            text-align: center;
+            margin: 10px;
+
+        }
+
+        .input-group {
+            text-align: left;
+            margin-bottom: 10px;
+            color: gray;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid navy;
+            outline: none;
+            font-size: 10px;
+            border-radius: 5px;
+        }
+
+        button {
+            background: navy;
+            width: 100%;
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+            /* border: none; */
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form>
+            <div class="input-group">
+                <label>Username</label>
+                <input type="text">
+            </div>
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password">
+            </div>
+            <button type="submit">Login </button>
+        </form>
+    </div>
+</body>
+
+</html>
